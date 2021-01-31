@@ -1,0 +1,16 @@
+name: OPManager
+version: ${project.version}
+main: com.vexatone.opmanager.opmanager.OPManager
+api-version: 1.16
+description: Vexatone's OP Manager
+
+commands:
+  opall:
+    description: Grants OP permission to everyone.
+    usage: /opall [help]
+  deopall:
+    description: Removed OP permission from everyone.
+    usage: /deopall [help]
+  checkop:
+    description: Shows a list of names of players who have OP permission.
+    usage: /checkop [help]
